@@ -1,4 +1,6 @@
-# SOC-portfolio### Cybersecurity Portfolio — Anna Prada
+# SOC-portfolio
+
+### Cybersecurity Portfolio — Anna Prada
 
 Hello — I'm Anna Prada. I'm building a hands-on SOC Analyst portfolio documenting labs, incident reports and small tools that demonstrate my practical skills in security operations and blue-team work.
 
