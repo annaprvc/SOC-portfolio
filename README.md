@@ -11,11 +11,11 @@ Hello!! My name is Anna Prada. I'm building a hands-on SOC Analyst portfolio doc
 
 
 ### 🛠️ Technical skills & tools
-- SIEM / Log analysis: Splunk (queries, dashboards), basic KQL/EQL (where applicable)  
-- Endpoint / Forensics: basic EDR workflows, Windows Event Logs, Volatility (intro)  
+- SIEM / Log analysis: Splunk 
+- Endpoint / Forensics:   
 - Network analysis: Wireshark, tcpdump, PCAP triage  
-- Scripting & automation: Python (parsing logs, small analyzers), Bash  
-- Detection/Hunting: YARA (rules), IOC enrichment (VirusTotal, AbuseIPDB)  
+- Scripting & automation: 
+- Detection/Hunting: 
 - OS: Linux (Ubuntu/Kali), Windows  
 - Other: basic GRC awareness from data protection training
 
