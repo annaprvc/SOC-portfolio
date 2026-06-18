@@ -2,7 +2,7 @@
 
 ### Cybersecurity Portfolio — Anna Prada
 
-Hello — I'm Anna Prada. I'm building a hands-on SOC Analyst portfolio documenting labs, incident reports and small tools that demonstrate my practical skills in security operations and blue-team work.
+Hello!! My name is Anna Prada. I'm building a hands-on SOC Analyst portfolio documenting labs, incident reports and small tools that demonstrate my practical skills in security operations and blue-team work.
 
 #### Current status
 - Recently completed: "Delegado de Protección de Datos y Ciberseguridad" — Universidad SEAS (Zaragoza).  
