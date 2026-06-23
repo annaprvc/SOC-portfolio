@@ -229,3 +229,4 @@ Changing the victim's wallpaper is a common ransomware technique used to ensure 
 
 
 
+
