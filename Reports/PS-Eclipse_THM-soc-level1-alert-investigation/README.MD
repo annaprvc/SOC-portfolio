@@ -138,6 +138,7 @@ This connection likely served as the command-and-control (C2) channel used by th
 
 ---
 
+
 ### 7. Additional Payload Download
 
 The investigation revealed that a PowerShell script was downloaded into the same directory used by the binary.
@@ -160,6 +161,7 @@ The presence of an additional script suggests the attack involved multiple stage
 
 ---
 
+
 ### 8. Malware Identification
 
 While reviewing file creation events, I identified hashes associated with the downloaded script.
@@ -175,6 +177,7 @@ This finding provided a direct link between the observed activity and the BlackS
 ![Virustotal Detection](../../Evidences/PS-Eclipse_THM-soc-level1-alert-investigation/virustotal.png)
 
 ---
+
 
 ### 9. Ransom Note Discovery
 
@@ -197,6 +200,7 @@ The presence of a ransom note is a strong indicator that the ransomware executio
 ![Blacksun note](../../Evidences/PS-Eclipse_THM-soc-level1-alert-investigation/blacksun_readme.png)
 
 ---
+
 
 ### 10. Desktop Wallpaper Modification
 
