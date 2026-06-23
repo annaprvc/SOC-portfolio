@@ -1,7 +1,7 @@
 # Conti Ransomware - Compromised Server Write-Up
 
 ## Overview
-![Cover Image](../../Evidences/CONTI_THM-COMPROMISED-SERVER/Conti.png)
+![Cover Image](../../Evidences/Conti_THM-compromised-server/Conti.png)
 
 This room simulates a ransomware investigation based on the **Conti** ransomware family.
 
