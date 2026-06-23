@@ -20,7 +20,7 @@ Hello!! My name is Anna Prada. I'm building a hands-on SOC Analyst portfolio doc
 - Other: basic GRC awareness from data protection training
 
 ### 📌 Example project / lab entries
-- [PS-Eclipse_THM-soc-level1-alert-investigation](https://github.com/annaprvc/SOC-portfolio/blob/main/Reports/PS-Eclipse_THM-soc-level1-alert-investigation/README.MD)
+- [PS-Eclipse_THM-Alert-investigation](https://github.com/annaprvc/SOC-portfolio/blob/main/Reports/PS-Eclipse_THM-soc-level1-alert-investigation/README.MD)
 - [Conti_THM-Compromised-server](https://github.com/annaprvc/SOC-portfolio/blob/main/Reports/Conti_THM-compromised-server/Conti%20-%20THM)
 
  

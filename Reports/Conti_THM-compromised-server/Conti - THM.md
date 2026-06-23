@@ -39,7 +39,7 @@ C:\Users\Administrator\Documents\cmd.exe
 
 Dropping a malicious executable named `cmd.exe` is a masquerading technique (MITRE T1036) designed to blend in with legitimate Windows system processes and avoid detection.
 
-![Event](../../Evidences/CONTI_THM-COMPROMISED-SERVER/eventID.png)
+![Event](../../Evidences/Conti_THM-compromised-server/eventID.png)
 
 ---
 
@@ -71,7 +71,7 @@ MD5: 290C7DFB01E50CEA9E19DA81A781AF2C
 
 This hash can be submitted to threat intelligence platforms such as VirusTotal to confirm the malware family and retrieve additional context.
 
-![MD5](../../Evidences/CONTI_THM-COMPROMISED-SERVER/MD5.png)
+![MD5](../../Evidences/Conti_THM-compromised-server/MD5.png)
 
 ---
 
@@ -91,7 +91,7 @@ Readme.txt
 
 The `Readme.txt` file is the ransomware note, dropped in multiple directories to ensure the victim encounters it regardless of which folder they open.
 
-![Target](../../Evidences/CONTI_THM-COMPROMISED-SERVER/targetfilename.png)
+![Target](../../Evidences/Conti_THM-compromised-server/targetfilename.png)
 
 ---
 
@@ -111,7 +111,7 @@ net user /add securityninja hardToHack123$
 
 Creating a new local user account is a common persistence technique (MITRE T1136.001) that allows the attacker to maintain access to the compromised system even if the original access vector is remediated.
 
->![New User](../../Evidences/CONTI_THM-COMPROMISED-SERVER/new-user.png).
+>![New User](../../Evidences/Conti_THM-compromised-server/new-user.png).
 
 ---
 
@@ -131,7 +131,7 @@ Filtering by the `TargetImage` field revealed the following migration:
 
 The attacker migrated from PowerShell into unsecapp.exe, a legitimate Windows WMI process, to achieve better persistence and avoid detection. This technique (MITRE T1055) allows malicious code to run under the context of a trusted system process.
 
-![Migration](../../Evidences/CONTI_THM-COMPROMISED-SERVER/migrated.png)
+![Migration](../../Conti_THM-compromised-server/migrated.png)
 
 ### 7. Credential Dumping via LSASS
 While reviewing the EventCode 8 results, a second event was identified targeting the following process:
@@ -172,7 +172,7 @@ attrib.exe -r \\win-aoqkg2as2q7.bellybear.local\C$\Program Files\Microsoft\Excha
 
 The attrib.exe -r command removes the read-only attribute from the web shell file. This was likely executed to ensure the file could be modified or overwritten without restrictions, indicating the attacker was actively managing their access to the compromised Exchange Server.
 
-![Command](../../Evidences/CONTI_THM-COMPROMISED-SERVER/command.png)
+![Command](../../Evidences/Conti_THM-compromised-server/command.png)
 
 ## Indicators of Compromise (IOCs)
 | IOC Type | Indicator | Description |
