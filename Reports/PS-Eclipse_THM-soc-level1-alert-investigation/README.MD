@@ -216,7 +216,7 @@ Changing the victim's wallpaper is a common ransomware technique used to ensure 
 ## Indicators of Compromise (IOCs)
 | IOC Type | Indicator | Description |
 | --- | --- | --- |
-| Binario | exOUTSTANDING_GUTTER.exe | Initial malicious executable |
+| Binario | OUTSTANDING_GUTTER.exe | Initial malicious executable |
 | PowerShell Script | BlackSun.ps1 | Secondary payload |
 | Domain | 886e-181-215-214-32.ngrok.io | Payload download source |
 | Domain | 9030-181-215-214-32.ngrok.io | C2 communication |
