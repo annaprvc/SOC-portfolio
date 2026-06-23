@@ -131,7 +131,7 @@ Filtering by the `TargetImage` field revealed the following migration:
 
 The attacker migrated from PowerShell into unsecapp.exe, a legitimate Windows WMI process, to achieve better persistence and avoid detection. This technique (MITRE T1055) allows malicious code to run under the context of a trusted system process.
 
-![Migration](../../Conti_THM-compromised-server/migrated.png)
+![Migration](../../Evidences/Conti_THM-compromised-server/migrated.png)
 
 ### 7. Credential Dumping via LSASS
 While reviewing the EventCode 8 results, a second event was identified targeting the following process:
